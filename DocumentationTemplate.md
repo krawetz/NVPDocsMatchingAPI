@@ -26,8 +26,9 @@
 #
 2.
 #
-3...
+3. ...
 #
-*Comments/Note*
+#
+##### *Comments/Note*
 `code block`
 
