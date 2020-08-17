@@ -1,10 +1,38 @@
-*DEFINE: The API workflow for submitting low priority matches (e.g. de-duplication, prospect match, new customer vendor list)*
-*Audience: LOB developers integrating APIs into their platforms*
-
-
-#####Workflow is as follows:#####
-
+# Low Priority Matching Workflow
+#
+#### Description
+#
+*The API workflow for submitting low priority matches (e.g. de-duplication, prospect match, new customer vendor list)*
+#
+##### POST
+#
+###### Method
+#
+##### Request Body Parameters
+#
+###### Parameters
+#
+###### Data Types
+#
+###### Required/Optional
+#
+###### Description
+#
+##### Example Request
+#
+`Request Sample Code Block`
+#
+##### Example Response
+#
+`Example Response Code Block`
+#
+###### If Needed, Steps:
 1.
+#
 2.
-3.
-4.
+#
+3. 
+#
+##### *Comments/Note*
+`code block`
+
