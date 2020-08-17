@@ -1,12 +1,6 @@
-POST /source/batch/create?apiVersion=1.0
-POSTMAN:  POST: Create Batch 
-
-DEFINE: New list of source records to have for matching. Create the batch will reference all the new source records.
-#### NAME OF API/ TITLE
+#### Create Source Batch
 #
-##### Create Source Batch
-#
-*Description of API will be italicized*
+*New list of source records to have for matching. Create the batch will reference all the new source records.*
 #
 ##### POST 
 # POST
@@ -37,7 +31,7 @@ POST
 #
 2.
 #
-3. ...
+3. 
 #
 #
 ##### *Comments/Note*
