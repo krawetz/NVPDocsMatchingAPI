@@ -1,0 +1,59 @@
+# Get Invoice Batch Status
+#
+To get the status of an invoice batch, send a request to our `getInvoiceBatchStatus` API. The request needs to specify `invoiceBatchID` and `companyID`:
+#
+(### Generate Access Token
+#
+##### After getting your client ID and client secret, you must make a call request to the Identity Server to obtain a bearer token.
+#
+#### **POST**
+##### Method
+#
+##### Identity Server URL
+#
+##### POST
+#
+https://identity.nvoicepay.com/connect/token
+)
+#
+#
+### Request Body Parameters
+#
+##### Params
+#
+Key: `api_version`
+#
+Value: `<string>`
+#
+Description: The requested API version
+#
+#### Request Body:  
+#
+`
+{
+    "invoiceBatchID": "<integer>",
+    "companyID": "<uuid>"
+}
+`
+#
+#### Response Examples:
+#
+Source
+#
+SourceBatch ID
+#
+Date Created
+#
+Date Match Initiated
+#
+Date Completed
+#
+Total number of source records
+#
+Total number of matched records 
+#
+Total number of newly created master vendor records 
+#
+
+
+
