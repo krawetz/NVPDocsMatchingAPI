@@ -1,30 +1,9 @@
-Add Source Records to Source Batch:
-
-Audience: LOB Dev
-
-DEFINE: The moment a batch is submitted for matching, it is no longer able to accept new records.
-
 POST /source/batch/addRecords?apiVersion=1.0
-
-Add source records to an existing batch.
-
-Intended for Admin UI or reporting.
-
-Response:
-Source
-SourceBatch ID
-Date Created
-Date Match Initiated
-Date Completed
-Total number of source records
-Total number of matched records 
-Total number of newly created master vendor records 
-
 
 #### ADD SOURCE RECORDS TO SOURCE BATCH
 #
 ##### 
-###### *The moment a batch is submitted for matching, it is no longer able to accept new records.*
+###### *Intended for Admin UI or reporting. Add source records to an existing batch.*
 #
 `POST /source/batch/addRecords?apiVersion=1.0`
 #
@@ -57,7 +36,15 @@ Identity Server URL - https://identity.nvoicepay.com/connect/token
 #
 #### Example Response
 #
-`Example Response Code Block`
+`Response:
+Source
+SourceBatch ID
+Date Created
+Date Match Initiated
+Date Completed
+Total number of source records
+Total number of matched records 
+Total number of newly created master vendor records `
 #
 ###### If Needed, Steps:
 1.
