@@ -38,21 +38,21 @@ Identity Server URL - https://identity.nvoicepay.com/connect/token
 #
 #####Response:
 # 
-`Source`
+`Source:`
 # 
-`SourceBatch ID`
+`SourceBatch ID:`
 # 
-`Date Created`
+`Date Created:`
 # 
-`Date Match Initiated`
+`Date Match Initiated:`
 #
-`Date Completed`
+`Date Completed:`
 #
-`Total number of source records`
+`Total number of source records:`
 #
-`Total number of matched records` 
+`Total number of matched records:` 
 #
-`Total number of newly created master vendor records`
+`Total number of newly created master vendor records:`
 #
 #
 #
