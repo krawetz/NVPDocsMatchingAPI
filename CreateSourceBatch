@@ -1,0 +1,9 @@
+Audience: LOB Dev
+
+Create Source Batch:
+
+POST /source/batch/create?apiVersion=1.0
+POSTMAN:  POST: Create Batch 
+
+DEFINE: New list of source records to have for matching. Create the batch will reference all the new source records.
+
