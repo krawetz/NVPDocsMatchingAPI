@@ -1,0 +1,10 @@
+Add Source Records to Source Batch:
+
+Audience: LOB Dev
+
+DEFINE: The moment a batch is submitted for matching, it is no longer able to accept new records.
+
+POST /source/batch/addRecords?apiVersion=1.0
+Add source records to an existing batch.
+
+
