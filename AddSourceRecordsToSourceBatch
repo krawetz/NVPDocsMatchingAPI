@@ -5,6 +5,20 @@ Audience: LOB Dev
 DEFINE: The moment a batch is submitted for matching, it is no longer able to accept new records.
 
 POST /source/batch/addRecords?apiVersion=1.0
+
 Add source records to an existing batch.
+
+Intended for Admin UI or reporting.
+
+Response:
+Source
+SourceBatch ID
+Date Created
+Date Match Initiated
+Date Completed
+Total number of source records
+Total number of matched records 
+Total number of newly created master vendor records 
+
 
 
