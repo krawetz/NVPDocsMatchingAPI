@@ -1,0 +1,41 @@
+# Get Invoice Batch Status
+#
+*Intended for Admin UI or reporting. The API client can request the status of a previously submitted asynchronous match request.* 
+#
+#### Authenticate
+#
+#API:`POST /source/batch/getDetails?apiVersion=1.0`
+#
+#### Method:
+#
+POST
+#
+#
+`{{base_uri}}/api/integrated/invoice/getInvoiceBatchStatus`
+#
+`{
+	"companyID":"<uuid>",
+	"paymentBatchID": "<uuid>"
+}`
+
+#### Response:
+#
+Source
+#
+SourceBatch ID
+#
+Date Created
+#
+Date Match Initiated
+#
+Date Completed
+#
+Total number of source records
+#
+Total number of matched records 
+#
+Total number of newly created master vendor records 
+#
+
+
+
