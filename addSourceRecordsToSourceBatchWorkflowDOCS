@@ -1,17 +1,8 @@
-?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-	<head>
-	</head>
-	<body>
-		<h1>README</h1>
-		<p>readme info</p>
-		
-		<h1>Add Source records to Source Batch Workflow</h1>
+Add Source Records to Source Batch:
 
-		<h2>Intro</h2>
-		<h2>Summary</h2>
-		<h2></h2>
-		<h2></h2>
-		<p></p>
-	</body>
-	</ht
+Audience: LOB Dev
+
+DEFINE: The moment a batch is submitted for matching, it is no longer able to accept new records.
+
+POST /source/batch/addRecords?apiVersion=1.0
+Add source records to an existing batch.
