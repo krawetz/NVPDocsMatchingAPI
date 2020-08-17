@@ -1,5 +1,34 @@
-Get All Source Batches:
+#### Get All Source Batches
+#
+##### Description
+#
+*description here*
+#
+##### POST 
+###### Method
+##### Request Body Parameters
+###### Parameter
+###### Data Type
+###### Required/Optional
+###### Description
+##### Example Request
+#
+`Request Sample Code Block`
+#
+##### Example Response
+#
+`Example Response Code Block`
+#
+###### If Needed, Steps:
+1.
+#
+2.
+#
+3. ...
+#
+#
+##### *Comments/Note*
+`code block`
 
-Audience: LOB Dev
 
-DEFINE:
+
