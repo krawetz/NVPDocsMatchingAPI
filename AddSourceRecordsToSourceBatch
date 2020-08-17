@@ -21,4 +21,55 @@ Total number of matched records
 Total number of newly created master vendor records 
 
 
+#### ADD SOURCE RECORDS TO SOURCE BATCH
+#
+##### 
+###### *The moment a batch is submitted for matching, it is no longer able to accept new records.*
+#
+`POST /source/batch/addRecords?apiVersion=1.0`
+#
+#### POST
+#
+Method = POST
+#
+Identity Server URL - https://identity.nvoicepay.com/connect/token
+#
+#### Request Body Parameters
+#
+###### Parameter
+#
+#
+#
+###### Data Type
+#
+#
+#
+###### Required/Optional
+#
+#
+###### Description
+#
+#
+#
+#### Example Request
+#
+`Request Sample Code Block`
+#
+#### Example Response
+#
+`Example Response Code Block`
+#
+###### If Needed, Steps:
+1.
+#
+2.
+#
+3. ...
+#
+#
+#### *Comments/Note*
+`code block`
+
+
+
 
