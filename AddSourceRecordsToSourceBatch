@@ -1,8 +1,5 @@
-POST /source/batch/addRecords?apiVersion=1.0
-
 #### ADD SOURCE RECORDS TO SOURCE BATCH
-#
-##### 
+# 
 ###### *Intended for Admin UI or reporting. Add source records to an existing batch.*
 #
 `POST /source/batch/addRecords?apiVersion=1.0`
@@ -11,24 +8,29 @@ POST /source/batch/addRecords?apiVersion=1.0
 #
 Method = POST
 #
-Identity Server URL - https://identity.nvoicepay.com/connect/token
+(Identity Server URL - https://identity.nvoicepay.com/connect/token)
 #
 #### Request Body Parameters
 #
-###### Parameter
+##### Example Value | Schema
 #
+` {
+    "company_ID": "string",
+    "batchID": "string"
+   }
 #
+###### Parameters
+#
+# api-version
 #
 ###### Data Type
-#
 #
 #
 ###### Required/Optional
 #
 #
 ###### Description
-#
-#
+# string
 #
 #### Example Request
 #
@@ -36,7 +38,9 @@ Identity Server URL - https://identity.nvoicepay.com/connect/token
 #
 #### Example Response
 #
-#####Response:
+`code block`
+#
+##### Response:
 # 
 `Source:`
 # 
@@ -55,7 +59,7 @@ Identity Server URL - https://identity.nvoicepay.com/connect/token
 `Total number of newly created master vendor records:`
 #
 #
-#
+
 ###### If Needed, Steps:
 1.
 #
@@ -63,9 +67,8 @@ Identity Server URL - https://identity.nvoicepay.com/connect/token
 #
 3.
 #
-#
 #### *Comments/Note*
-`code block`
+
 
 
 
