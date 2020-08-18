@@ -26,12 +26,14 @@
 #
 `Example Response Code Block`
 #
-###### If Needed, Steps:
-1.
+###### Workflow Example 1:
 #
-2.
+1 Vendor Sample
 #
-3. 
+1. Add Source
+2. Create Batch
+3. Add Records
+Start Matching On Batch
 #
 ##### *Comments/Note*
 `code block`
